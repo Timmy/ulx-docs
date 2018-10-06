@@ -1,0 +1,34 @@
+---
+---
+# Introduction
+
+- [What is ULX?](#what-is-ulx)
+- [Feature highlights](#feature-highlights)
+- [Official links](#official-links)
+
+<a name="what-is-ulx"></a>
+## What is ULX?
+
+ULX is an admin mod for Garry's Mod created by Team Ulysses. It was first released days after GM9 (2005) came out. Development on it has continued since then. ULX can be used to assist in administration & server management, deal with rulebreakers, alter gameplay and much, much more!
+
+<a name="feature-highlights"></a>
+## Feature highlights
+
+- An immense list of commands.
+- An easy-to-use and intuitive GUI.
+- A powerful targeting system.
+- Full-featured and configurable logging system.
+- Reserved slots.
+- Configurable adverts.
+- Autocompleted console commands.
+- Message of the Day generator.
+- Designed to be easy to use from a dedicated server console.
+- Support for third-party modules.
+- Supportive forum community of developers and ULX users.
+
+<a name="official-links"></a>
+## Official links
+
+- [Ulyssesmod](https://ulyssesmod.net) - Team Ulysses website.
+- [Ulysses forum](https://forums.ulyssesmod.net) - Ulysses forum. The best place to discuss Team Ulysses' projects (ULX, ULib, UTime, …), suggest features and ask for help.
+- [TeamUlysses on GitHub](https://github.com/TeamUlysses) - Team Ulysses GitHub organization. Points to the Git-repositories for all of their projects. This is also the appropriate place to report bugs.

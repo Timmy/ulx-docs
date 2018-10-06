@@ -1,0 +1,47 @@
+{% assign url = page.url | remove: 'index.html' %}
+
+{% for link in site.nav.Users %}
+  {% if url == link.url %}
+    {% assign title = link.text %}
+  {% endif %}
+{% endfor %}
+
+{% for link in site.nav.Developers %}
+  {% if url == link.url %}
+    {% assign title = link.text %}
+  {% endif %}
+{% endfor %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  </head>
+  <body class="page">
+    <input class="menu-checkbox" id="menu" type="checkbox">
+    <header class="header">
+      <div class="header__container">
+        <label class="header__menu-toggle" for="menu"><span class="hamburger"><span class="hamburger__bar"></span><span class="hamburger__bar"></span><span class="hamburger__bar"></span></span></label>
+        <div class="header__logo">
+            <a class="header__logo-link" href="{{ "/" | prepend: site.baseurl }}">{{ site.title }}</a>
+        </div>
+      </div>
+    </header>
+    {% include navigation.html %}
+    <main class="content">
+      {{ content }}
+      <div class="content__meta">
+        <p>
+          Want to improve the documentation on this page?
+          <a href="{{ site.git.repository_url }}/issues/new">Report an error</a> or
+          <a href="{{ site.git.repository_url }}/edit/master/{{ page.path }}">suggest changes</a>.
+        </p>
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

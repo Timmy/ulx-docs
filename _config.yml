@@ -1,0 +1,63 @@
+# Site
+title: ULX Unofficial Documentation
+description: Unofficial documentation for the ULX admin mod for Garry's Mod.
+baseurl: "/ulx-docs"
+permalink: /:title
+
+# Repository
+git:
+  repository_url: https://github.com/Timmy/ulx-docs
+
+# Navigation
+nav:
+  Users:
+    - text: Introduction
+      url: /
+      available: true
+    - text: Installation
+      url: /installation
+      available: true
+    - text: Getting started
+      url: /getting-started
+      available: true
+    - text: Configuration
+      url: /configuration
+      available: true
+    - text: Keyword targeting
+      url: /targeting
+      available: true
+    - text: Third-party modules
+      url: /third-party-modules
+      available: true
+    - text: Tips and tricks
+      url: /tips-and-tricks
+      available: true
+    - text: Backup and restore
+      url: /backup-and-restore
+      available: true
+    - text: Reset to factory settings
+      url: /factory-reset
+  Developers:
+    - text: Development version
+      url: /development-version
+    - text: Hooks and functions
+      url: /hooks-and-functions
+    - text: Custom module
+      url: /custom-module
+    - text: Custom command
+      url: /custom-command
+    - text: Custom keyword
+      url: /custom-keyword
+    - text: Custom XGUI tab
+      url: /custom-xgui-tab
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Build
+markdown: kramdown
+exclude: ["README.md"]
