@@ -4,8 +4,8 @@
     <div class="navigation__category">Users</div>
     <ul class="navigation__link-list">
       {% for link in site.nav.Users %}
-        <li class="navigation__link-list-item">
-          <a class="navigation__link-list-link{% if url == link.url %} navigation__link-list-item--active{% endif %}{% if link.available != true %} navigation__link-list-item--unavailable{% endif %}" href="{{ link.url | prepend: site.baseurl }}">
+        <li class="navigation__link-list-item{% if url == link.url %} navigation__link-list-item--active{% endif %}{% if link.available != true %} navigation__link-list-item--unavailable{% endif %}">
+          <a class="navigation__link-list-link{% if url == link.url %} navigation__link-list-item--active{% endif %}" href="{{ link.url | prepend: site.baseurl }}">
             {{ link.text }}
           </a>
         </li>
@@ -14,8 +14,8 @@
     <div class="navigation__category">Developers</div>
     <ul class="navigation__link-list">
       {% for link in site.nav.Developers %}
-        <li class="navigation__link-list-item">
-          <a class="navigation__link-list-link{% if url == link.url %} navigation__link-list-item--active{% endif %}{% if link.available != true %} navigation__link-list-item--unavailable{% endif %}" href="{{ link.url | prepend: site.baseurl }}">
+        <li class="navigation__link-list-item{% if url == link.url %} navigation__link-list-item--active{% endif %}{% if link.available != true %} navigation__link-list-item--unavailable{% endif %}">
+          <a class="navigation__link-list-link" href="{{ link.url | prepend: site.baseurl }}">
             {{ link.text }}
           </a>
         </li>

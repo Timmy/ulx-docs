@@ -98,8 +98,12 @@ html
   padding: 0
   list-style: none
 
-.navigation__link-list-item
-  color: rgba(0, 0, 0, 0.5)
+.navigation__link-list-item--active
+  font-weight: 700
+
+.navigation__link-list-item--unavailable
+  pointer-events: none
+  color: rgba(0, 0, 0, 0.33)
 
 .navigation__link-list-link
   display: block
@@ -107,13 +111,6 @@ html
   color: inherit
   text-decoration: none
   border-radius: 0.1em
-
-.navigation__link-list-item--active
-  font-weight: 700
-
-.navigation__link-list-item--unavailable
-  pointer-events: none
-  color: rgba(0, 0, 0, 0.33)
 
 .navigation__link-list-link:hover
   text-decoration: underline
@@ -292,10 +289,6 @@ html
     color: rgba(0, 0, 0, 0.5)
     padding-left: 0
     padding-right: 0
-
-  .navigation__link-list-item
-    border: none
-    color: inherit
 
   .navigation__link-list-link
     padding: 0.5em 0
