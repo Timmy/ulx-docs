@@ -34,7 +34,7 @@ Test your fresh installation of ULX by joining your server and typing `!thetime`
 <a name="classic"></a>
 ## Classic installation
 
-It's possible to install ULX without the Steam Workshop. Keep in mind that installing ULX as a legacy addons means that you will have to perform all updates manually. ULX will automatically notify admins if a new version is available when they join the server.
+It's possible to install ULX without the Steam Workshop. Keep in mind that installing ULX as a legacy addon means that you will have to perform all updates manually. ULX will automatically notify admins if a new version is available when they join the server.
 
 1. Download the latest downloadable ULib and ULX release from the [Ulyssesmod Downloads page](https://ulyssesmod.net/downloads.php). Look for the two links that end in `.zip`.
 2. Extract the archives in your `addons` directory. The file structure should look like this:
