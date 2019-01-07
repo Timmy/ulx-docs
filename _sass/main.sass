@@ -229,10 +229,41 @@ html
 
 .footer__container
   padding: 1rem
-  text-align: center
+
+.footer__link:hover
+  text-decoration: underline
+
+.footer__sections
+  display: grid
+  grid-auto-columns: auto
+  grid-auto-rows: auto
+  grid-gap: 1rem
+
+.footer__section
+
+.footer__section-title
+  font-size: 1rem
+  font-weight: bold
+  color: rgba(255, 255, 255, 0.63)
+  margin: 0 0 0.5rem 0
+
+.footer__link-list
+  margin: 0
+  padding: 0
+  list-style: none
+
+.footer__link-list-item
+
+.footer__link-list-link
+  display: inline-block
+  padding: 0.125rem 0
+  color: inherit
+  text-decoration: none
+
+.footer__link-list-link:hover
+  text-decoration: underline
 
 .footer__line
-  margin: 0
   line-height: 1.5
   margin-bottom: 1em
 
@@ -240,11 +271,8 @@ html
   margin-bottom: 0
 
 .footer__link
-  color: rgba(255, 255, 255, 0.80)
+  color: rgba(255, 255, 255, 0.63)
   text-decoration: none
-
-.footer__link:hover
-  text-decoration: underline
 
 @media (min-width: 769px)
   .page
@@ -307,3 +335,7 @@ html
     width: 100%
     max-width: 960px
     margin: 0 auto
+
+  .footer__sections
+    grid-auto-flow: column
+    grid-gap: unset
