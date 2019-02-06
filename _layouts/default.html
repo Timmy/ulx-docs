@@ -44,8 +44,8 @@
     <main class="content">
       {{ content }}
       <div class="content__nav">
-        {% if previous_page %}<a class="content__nav-link content__nav-link--prev" href="{{ previous_page.url }}">{{ previous_page.text }}</a>{% endif %}
-        {% if next_page %}<a class="content__nav-link content__nav-link--next" href="{{ next_page.url }}">{{ next_page.text }}</a>{% endif %}
+        {% if previous_page %}<a class="content__nav-link content__nav-link--prev" href="{{ previous_page.url | prepend: site.baseurl }}">{{ previous_page.text }}</a>{% endif %}
+        {% if next_page %}<a class="content__nav-link content__nav-link--next" href="{{ next_page.url | prepend: site.baseurl }}">{{ next_page.text }}</a>{% endif %}
       </div>
       <div class="content__meta">
         <p>
