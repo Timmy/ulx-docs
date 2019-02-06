@@ -1,4 +1,7 @@
 ---
+description: >
+  The ULX admin mod for Garry’s Mod allows for a high level of customization.
+  This page covers prominent settings that are not customizable through XGUI.
 ---
 # Configuration
 

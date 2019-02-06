@@ -1,4 +1,7 @@
 ---
+description: >
+  The ULX admin mod for Garry’s Mod makes it easy to run commands on a specific
+  (group of) players. This tutorial will teach you how target with keywords.
 ---
 # Keyword targeting
 

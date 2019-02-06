@@ -1,4 +1,7 @@
 ---
+description: >
+  The unofficial documentation for the ULX admin mod for Garry’s Mod! This
+  project aims to provide users of ULX with a reliable source of information.
 ---
 # Introduction
 

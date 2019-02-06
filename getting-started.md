@@ -1,4 +1,7 @@
 ---
+description: >
+  Using the ULX admin mod for Garry’s Mod for the first time? This tutorial will
+  walk you through the basics: make yourself admin, bind XGUI to a key, ...
 ---
 # Getting started
 

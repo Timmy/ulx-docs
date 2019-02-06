@@ -1,4 +1,8 @@
 ---
+description: >
+  The ULX admin mod for Garry’s Mod stores its data in various locations. This
+  tutorial will give you step-by-step instructions on how to make and restore
+  backups.
 ---
 # Backup and restore
 

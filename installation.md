@@ -1,4 +1,7 @@
 ---
+description: >
+  Installing the ULX admin mod for Garry’s Mod for the first time? This tutorial
+  will give you step-by-step instructions on how to set up ULX on your server.
 ---
 # Installation
 

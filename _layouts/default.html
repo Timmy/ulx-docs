@@ -25,7 +25,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.description %}<meta name="description" content="{{ page.description | strip_newlines }}">{% endif %}
     <title>{% if current_page %}{{ current_page.text }} - {% endif %}{{ site.title }}</title>
     <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
