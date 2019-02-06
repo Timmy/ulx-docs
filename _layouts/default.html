@@ -1,15 +1,23 @@
-{% assign url = page.url | remove: 'index.html' %}
+{% assign current_url = page.url | remove: 'index.html' %}
 
-{% for link in site.nav.Users %}
-  {% if url == link.url %}
-    {% assign title = link.text %}
+{% assign nav_items = site.nav.Users | concat: site.nav.Developers %}
+{% for link in nav_items %}
+  {% if forloop.index == site.nav.Users.size %}
+     {% assign previous_page = nil %}
   {% endif %}
-{% endfor %}
-
-{% for link in site.nav.Developers %}
-  {% if url == link.url %}
-    {% assign title = link.text %}
+  {% unless link.available %}
+    {% continue %}
+  {% endunless %}
+  {% if current_page %}
+    {% assign next_page = link %}
+    {% break %}
   {% endif %}
+  {% if link.url == current_url %}
+    {% assign current_page = link %}
+  {% endif %}
+  {% unless current_page %}
+    {% assign previous_page = link %}
+  {% endunless %}
 {% endfor %}
 
 <!DOCTYPE html>
@@ -18,7 +26,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
+    <title>{% if current_page %}{{ current_page.text }} - {% endif %}{{ site.title }}</title>
     <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   </head>
@@ -35,6 +43,10 @@
     {% include navigation.html %}
     <main class="content">
       {{ content }}
+      <div class="content__nav">
+        {% if previous_page %}<a class="content__nav-link content__nav-link--prev" href="{{ previous_page.url }}">{{ previous_page.text }}</a>{% endif %}
+        {% if next_page %}<a class="content__nav-link content__nav-link--next" href="{{ next_page.url }}">{{ next_page.text }}</a>{% endif %}
+      </div>
       <div class="content__meta">
         <p>
           Want to improve the documentation on this page?

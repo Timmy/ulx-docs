@@ -217,11 +217,24 @@ html
   font-weight: 400
   border-bottom-width: 2px
 
-.content__meta
-  font-size: 90%
+.content__nav
   border-top: 1px solid rgba(0, 0, 0, 0.05)
+  display: flex
+  flex-flow: row wrap
+  margin: 3rem 0 1rem
+  padding-top: 1rem
 
-.content__edit
+.content__nav-link--prev
+  margin-right: auto
+
+.content__nav-link--prev:before
+  content: "← "
+
+.content__nav-link--next
+  margin-left: auto
+
+.content__nav-link--next:after
+  content: " →"
 
 .footer
   background: rgba(0, 0, 0, 0.84)
