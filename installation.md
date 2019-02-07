@@ -41,8 +41,8 @@ It's possible to install ULX without the Steam Workshop. Keep in mind that insta
 
 1. Download the latest downloadable ULib and ULX release from the [Ulyssesmod Downloads page](https://ulyssesmod.net/downloads.php). Look for the two links that end in `.zip`.
 2. Extract the archives in your `addons` directory. The file structure should look like this:
-    - `<garrysmod>/addons/ulib/ulib.build`
-    - `<garrysmod>/addons/ulx/ulx.build`
+  - `<garrysmod>/addons/ulib/ulib.build`
+  - `<garrysmod>/addons/ulx/ulx.build`
 3. Restart your Garry's Mod game client or dedicated server.
 
 Test your fresh installation of ULX by joining your server and typing `!thetime` in chat. This ULX command should display the current server time in your chat window.
