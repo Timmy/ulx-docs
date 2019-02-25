@@ -3,7 +3,10 @@
 {% assign nav_items = site.nav.Users | concat: site.nav.Developers %}
 {% for link in nav_items %}
   {% if forloop.index == site.nav.Users.size %}
-     {% assign previous_page = nil %}
+    {% if current_page %}
+      {% break %}
+    {% endif %}
+    {% assign previous_page = nil %}
   {% endif %}
   {% unless link.available %}
     {% continue %}
