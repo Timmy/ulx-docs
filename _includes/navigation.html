@@ -5,7 +5,7 @@
     <ul class="navigation__link-list">
       {% for link in site.nav.Users %}
         <li class="navigation__link-list-item{% if current_url == link.url %} navigation__link-list-item--active{% endif %}{% unless link.available %} navigation__link-list-item--unavailable{% endunless %}">
-          <a class="navigation__link-list-link" href="{{ link.url | prepend: site.baseurl }}">
+          <a class="navigation__link-list-link{% if current_url == link.url %} navigation__link-list-link--active{% endif %}" href="{{ link.url | prepend: site.baseurl }}">
             {{ link.text }}
           </a>
         </li>
@@ -15,7 +15,7 @@
     <ul class="navigation__link-list">
       {% for link in site.nav.Developers %}
         <li class="navigation__link-list-item{% if current_url == link.url %} navigation__link-list-item--active{% endif %}{% unless link.available %} navigation__link-list-item--unavailable{% endunless %}">
-          <a class="navigation__link-list-link" href="{{ link.url | prepend: site.baseurl }}">
+          <a class="navigation__link-list-link{% if current_url == link.url %} navigation__link-list-link--active{% endif %}" href="{{ link.url | prepend: site.baseurl }}">
             {{ link.text }}
           </a>
         </li>
