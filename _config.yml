@@ -26,17 +26,17 @@ nav:
     - text: Keyword targeting
       url: /targeting
       available: true
-    - text: Third-party modules
-      url: /third-party-modules
-      available: true
-    - text: Tips and tricks
-      url: /tips-and-tricks
-      available: true
     - text: Backup and restore
       url: /backup-and-restore
       available: true
     - text: Reset to factory settings
       url: /factory-reset
+    - text: Tips and tricks
+      url: /tips-and-tricks
+      available: true
+    - text: Third-party modules
+      url: /third-party-modules
+      available: true
   Developers:
     - text: Development version
       url: /development-version
