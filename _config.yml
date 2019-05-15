@@ -38,8 +38,9 @@ nav:
       url: /third-party-modules
       available: true
   Developers:
-    - text: Development version
-      url: /development-version
+    - text: SVN version
+      url: /svn-version
+      available: true
     - text: Hooks and functions
       url: /hooks-and-functions
     - text: Custom module
