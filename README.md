@@ -13,10 +13,8 @@ You can help improve the documentation!
 
 ## Building
 
-This project uses [Jekyll](https://jekyllrb.com) to turn this repository into a static website.
-
-Once you have installed Jekyll, you can use the following instructions to build the site on your local machine:
-
 1. `git clone https://github.com/Timmy/ulx-docs.git` - Download the repository to your computer.
-2. `jekyll serve -s ulx-docs -b ""` - Build the site and serve it locally.
-3. Preview the local site in your web browser at `http://localhost:4000`
+1. `cd ulx-docs` - Change the working directory to the project root.
+1. `bundle install` - Install Jekyll and other dependencies.
+1. `bundle exec jekyll serve -b ""` - Build the site and serve it locally.
+1. Open `http://localhost:4000` in your browser.
