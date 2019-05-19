@@ -12,7 +12,7 @@ description: >
 <a name="what-is-ulx"></a>
 ## What is ULX?
 
-ULX is an admin mod for Garry's Mod created by Team Ulysses. It was first released days after GM9 (2005) came out. Development on it has continued since then. ULX can be used to assist in administration & server management, deal with rulebreakers, alter gameplay and much, much more!
+ULX is an admin mod for Garry's Mod created by Team Ulysses. It was first released days after GM9 came out in 2005. Development on it has continued since then. ULX can be used to assist in administration & server management, deal with rulebreakers, alter gameplay and much, much more!
 
 <a name="feature-highlights"></a>
 ## Feature highlights
