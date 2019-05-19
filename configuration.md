@@ -40,7 +40,7 @@ Default ban reasons are displayed as suggestions when trying to kick or ban a us
 
 ULX can load different configurations depending on the current gamemode or map.
 
-Create files using the following directory structure:
+Create files using the following folder structure:
 - `<garrysmod>/data/ulx/maps/<mapname>/config.txt`
 - `<garrysmod>/data/ulx/gamemodes/<gamemodename>/config.txt`
 
