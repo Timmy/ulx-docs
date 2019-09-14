@@ -61,4 +61,5 @@ defaults:
 
 # Build
 markdown: kramdown
+highlighter: rouge
 exclude: ["README.md"]
