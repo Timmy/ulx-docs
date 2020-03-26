@@ -174,9 +174,12 @@ html
 .content li
   line-height: 1.5
 
+.content pre
+  margin: 0
+
 .content code
   padding: 1px 5px
-  font: 90%/1 "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace
+  font: 0.8rem/1 "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace
   color: #555
   background: #eee
   border-radius: 3px
@@ -215,6 +218,26 @@ html
 .content table th
   border: 1px solid #ddd
   padding: 0.5em
+
+.content div.highlight
+  border: 2px solid #ddd
+  border-radius: 3px
+
+.content pre.highlight code
+  padding: 0
+  background: transparent
+  line-height: 1.15
+
+.content .rouge-table td
+  border-width: 0
+
+.content .rouge-table .rouge-code
+  width: 100%
+  border-left: 1px solid #eee
+
+.content .lineno
+  margin: 0
+  text-align: right
 
 .content table th
   background: #fafafa
@@ -292,7 +315,7 @@ html
     display: grid
     grid-template-areas: "header header header header" "navigation navigation content ." "footer footer footer footer"
     grid-template-rows: auto 1fr auto
-    grid-template-columns: 1fr minmax(auto, 270px) minmax(auto, 690px) 1fr
+    grid-template-columns: 1fr minmax(0, 270px) minmax(0, 690px) 1fr
     min-height: 100vh
 
   .header

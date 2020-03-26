@@ -62,4 +62,8 @@ defaults:
 # Build
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 exclude: ["README.md"]
