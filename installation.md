@@ -27,7 +27,7 @@ Test your fresh installation of ULX by creating a new listen server server and t
 
 Dedicated servers are intended for advanced users that want to open their server up to the public.
 
-1. Create a Steam Workshop Collection and add it to your server. See ["Workshop for Dedicated Servers" on the Garry's Mod wiki](https://wiki.garrysmod.com/page/Workshop_for_Dedicated_Servers) for details on how to do this.
+1. Create a Steam Workshop Collection and add it to your server. See ["Workshop for Dedicated Servers" on the Garry's Mod wiki](https://wiki.facepunch.com/gmod/Workshop_for_Dedicated_Servers) for details on how to do this.
 2. Add ["ULib" on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=557962238) to your Steam Workshop Collection by clicking the "Add to Collection" button.
 3. Add ["ULX" on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=557962280) to your Steam Workshop Collection by clicking the "Add to Collection" button.
 4. Restart your Garry's Mod dedicated server.
