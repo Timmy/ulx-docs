@@ -29,8 +29,9 @@ nav:
     - text: Backup and restore
       url: /backup-and-restore
       available: true
-    - text: Reset to factory settings
-      url: /factory-reset
+    - text: Reset to defaults
+      url: /reset
+      available: true
     - text: Tips and tricks
       url: /tips-and-tricks
       available: true
