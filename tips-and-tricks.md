@@ -5,7 +5,6 @@
 - [Timestrings](#timestrings)
 - [Advert variables](#advert-variables)
 
-<a name="timestrings"></a>
 ## Timestrings
 
 ULX commands that accept a time value (e.g., `ulx ban`) also support timestrings. This makes it trivial to ban a user for a certain amount of hours, days, weeks or years.
@@ -22,7 +21,6 @@ ULX commands that accept a time value (e.g., `ulx ban`) also support timestrings
 - Ban player with name "Garry" for one hour: `ulx ban Garry 1h Spammer`
 - Ban player with name "Garry" for two days and twelve hours: `ulx ban Garry 2d12h Minge`
 
-<a name="advert-variables"></a>
 ## Advert variables
 
 Adverts may contain certain variables. Before showing the advert, these variables are automatically replaced with the values they represent.

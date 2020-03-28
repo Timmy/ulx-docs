@@ -6,10 +6,9 @@ description: >
 ---
 # Reset to defaults
 
-- [ULX reset command](#ulx-resettodefaults)
-- [Manual reset](#manual)
+- [ULX reset command](#ulx-reset-command)
+- [Manual reset](#manual-reset)
 
-<a name="ulx-resettodefaults"></a>
 ## ULX reset command
 
 ULX comes with a command that lets you reset all ULX and ULib configuration, including bans, groups, and accesses.
@@ -20,7 +19,6 @@ ULX comes with a command that lets you reset all ULX and ULib configuration, inc
 1. Confirm your intent by running `ulx resettodefaults FORCE` from the server console.
 1. [Change levels](https://developer.valvesoftware.com/wiki/Changelevel) or restart the server to complete the process.
 
-<a name="manual"></a>
 ## Manual reset
 
 Alternatively, you can manually erase all relevant data from the server.

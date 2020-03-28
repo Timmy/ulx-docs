@@ -5,14 +5,13 @@ description: >
 ---
 # Installation
 
-- [On a listen server (via Steam Workshop)](#listen-server)
-- [On a Dedicated server (via Steam Workshop)](#dedicated-server)
-- [Classic installation](#classic)
+- [Listen server](#listen-server)
+- [Dedicated server](#dedicated-server)
+- [Classic method](#classic-method)
 
 > **Note:** The installation instructions will also instruct you to download ULib because ULX depends on its functionality. It won't work without it.
 
-<a name="listen-server"></a>
-## On a listen server (via Steam Workshop)
+## Listen server
 
 Listen servers are local servers that you can create from within the Garry's Mod game client. They are ideal when you want to play with a small group of friends.
 
@@ -22,8 +21,7 @@ Listen servers are local servers that you can create from within the Garry's Mod
 
 Test your fresh installation of ULX by creating a new listen server server and typing `!xgui` in chat. This command should open a menu that allows you to access commands and settings.
 
-<a name="dedicated-server"></a>
-## On a Dedicated server (via Steam Workshop)
+## Dedicated server
 
 Dedicated servers are intended for advanced users that want to open their server up to the public.
 
@@ -34,8 +32,7 @@ Dedicated servers are intended for advanced users that want to open their server
 
 Test your fresh installation of ULX by joining your server and typing `!thetime` in chat. This ULX command should display the current server time in your chat window.
 
-<a name="classic"></a>
-## Classic installation
+## Classic method
 
 It's possible to install ULX without the Steam Workshop. Keep in mind that installing ULX as a legacy addon means that you will have to perform all updates manually. ULX will automatically notify admins if a new version is available when they join the server.
 

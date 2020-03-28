@@ -9,7 +9,6 @@ description: >
 - [Binding XGUI to a key](#binding-xgui-to-a-key)
 - [Pitfalls](#pitfalls)
 
-<a name="make-yourself-superadmin"></a>
 ## Make yourself superadmin
 
 > **Running a listen server?** Skip this part. You should already have superadmin access.
@@ -23,7 +22,6 @@ You should now be able to use all privileged features ULX has to offer. Typing `
 
 Didn't work? See "[How do I make myself admin?](https://forums.ulyssesmod.net/index.php?topic=5766.0)" on the Ulysses forums for more detailed instructions and alternative methods.
 
-<a name="binding-xgui-to-a-key"></a>
 ## Binding XGUI to a key
 
 You can bind XGUI (ULX menu) to a key and make it available at the press off a button.
@@ -37,7 +35,6 @@ You can bind XGUI (ULX menu) to a key and make it available at the press off a b
 
 You should now be able to open the ULX menu with the press of a key.
 
-<a name="pitfalls"></a>
 ## Pitfalls
 
 - [Why having an owner group is useless and stupid](https://forums.ulyssesmod.net/index.php?topic=6291.0)

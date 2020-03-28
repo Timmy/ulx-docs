@@ -18,7 +18,7 @@ nav:
       url: /installation
       available: true
     - text: Getting started
-      url: /getting-started
+      url: /start
       available: true
     - text: Configuration
       url: /configuration

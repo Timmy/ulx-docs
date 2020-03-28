@@ -6,11 +6,10 @@ description: >
 ---
 # Backup and restore
 
-- [Making a backup](#backup)
-- [Restoring a backup](#restore)
+- [Backup](#backup)
+- [Restore](#restore)
 
-<a name="backup"></a>
-## Making a backup
+## Backup
 
 An unmodified version of ULX stores its data in `data/ulx`. ULX also relies on data from ULib, which is stored in `data/ulib` and the `ulib_bans` table in `sv.db`.
 
@@ -20,8 +19,7 @@ An unmodified version of ULX stores its data in `data/ulx`. ULX also relies on d
   - `<garrysmod>/data/ulib`
   - `<garrysmod>/sv.db`
 
-<a name="restore"></a>
-## Restoring a backup
+## Restore
 
 1. Shut down your server
 2. Put backed up files and directories back in their original location.

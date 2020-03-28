@@ -9,12 +9,10 @@ description: >
 - [Feature highlights](#feature-highlights)
 - [Official links](#official-links)
 
-<a name="what-is-ulx"></a>
 ## What is ULX?
 
 ULX is an admin mod for Garry's Mod created by Team Ulysses. It was first released days after GM9 came out in 2005. Development on it has continued since then. ULX can be used to assist in administration & server management, deal with rulebreakers, alter gameplay and much, much more!
 
-<a name="feature-highlights"></a>
 ## Feature highlights
 
 - An immense list of commands.
@@ -29,7 +27,6 @@ ULX is an admin mod for Garry's Mod created by Team Ulysses. It was first releas
 - Support for third-party modules.
 - Supportive forum community of developers and ULX users.
 
-<a name="official-links"></a>
 ## Official links
 
 - [Ulyssesmod](https://ulyssesmod.net) - Team Ulysses website.

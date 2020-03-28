@@ -7,7 +7,6 @@ description: >
 
 - [Summary](#summary)
 
-<a name="summary"></a>
 ## Summary
 
 | Keyword    | Meaning                                   |
