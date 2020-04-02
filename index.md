@@ -1,7 +1,8 @@
 ---
 description: >
-  The unofficial documentation for the ULX admin mod for Garry’s Mod! This
-  project aims to provide users of ULX with a reliable source of information.
+  Official documentation for ULX, an admin mod for Garry’s Mod. ULX was first
+  released days after GM9 came out in 2005, and development on it has continued
+  since then.
 ---
 # Introduction
 
@@ -32,4 +33,4 @@ ULX is an admin mod for Garry's Mod created by Team Ulysses. It was first releas
 - [Ulyssesmod](https://ulyssesmod.net) - Team Ulysses website.
 - [Ulysses forum](https://forums.ulyssesmod.net) - A public forum to discuss Team Ulysses' projects (ULX, ULib, UTime, …), suggest features and ask for help.
 - [Community Discord server](https://discord.gg/FtbZKnU) - Another place to ask for help with ULX or your own GLua projects.
-- [TeamUlysses on GitHub](https://github.com/TeamUlysses) - Team Ulysses GitHub organization. Points to the Git-repositories for all of their projects. This is also the appropriate place to report bugs.
+- [TeamUlysses on GitHub](https://github.com/TeamUlysses) - Team Ulysses GitHub organization. Points to the Git-repositories for all of our projects. This is also the appropriate place to report bugs.

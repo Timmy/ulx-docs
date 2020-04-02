@@ -1,8 +1,7 @@
-# ULX Unofficial Documentation
+# ULX Documentation
 
-**Read the documentation on https://timmy.github.io/ulx-docs/.**
+The official documentation for the [ULX admin mod](https://github.com/TeamUlysses/ulx) for Garry’s Mod!
 
-[ULX v3](https://github.com/teamulysses/ulx) has no official reference documentation. Looking for information on ULX often yields outdated, low-quality or irrelevant results. The goal of this project is to provide users of ULX with a reliable resource.
 
 ## Contributing
 
