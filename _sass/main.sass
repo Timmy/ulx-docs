@@ -50,7 +50,6 @@ html
 
 .header__container
   display: flex
-  padding: 1rem
   line-height: 1
 
 .menu-checkbox,
@@ -68,12 +67,14 @@ html
   overflow-y: auto
 
 .header__menu-toggle
-  margin-right: 1em
+  padding: 1rem
 
 .header__logo
   font-weight: 600
 
 .header__logo-link
+  display: inline-block
+  padding: 1rem 0
   text-decoration: none
   color: inherit
 
@@ -330,6 +331,9 @@ html
   .header__menu-toggle,
   .navigation__menu-toggle
     display: none
+
+  .header__logo
+    margin-left: 1rem
 
   .menu-checkbox:checked ~ .navigation
     display: flex
