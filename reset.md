@@ -23,6 +23,7 @@ ULX comes with a command that lets you reset all ULX and ULib configuration, inc
 
 Alternatively, you can manually erase all relevant data from the server.
 
+1. DarkRP FAdmin users: remove all FAdmin groups and privileges by running `lua_run sql.Query "DROP TABLE FADMIN_GROUPS; DROP TABLE FADMIN_PRIVILEGES"` from the server console.
 1. Remove all ban data by running `lua_run sql.Query "DROP TABLE ulib_bans"` from the server console.
 1. Shut down your server.
 1. Delete file: `<garrysmod>/cfg/banned_user.cfg` (if it exists*)
