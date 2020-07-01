@@ -13,7 +13,7 @@ description: >
 
 > **Running a listen server?** Skip this part. You should already have superadmin access.
 
-The superadmin usergroup is considered the highest usergroup by Garry's Mod. Users in the superadmin usergroup have access to all the privileged features in ULX.
+The superadmin usergroup is considered the highest usergroup by Garry's Mod. Users in the superadmin usergroup have full access to ULX.
 
 1. Join your Garry's Mod dedicated server.
 2. Open your dedicated server console and run `ulx adduser "<NICKNAME>" superadmin` where `<NICKNAME>` is the name of the user you want to promote (e.g.: `ulx adduser "Garry" superadmin`).
