@@ -23,7 +23,7 @@ nav:
     - text: Configuration
       url: /configuration
       available: true
-    - text: Keyword targeting
+    - text: Targeting players
       url: /targeting
       available: true
     - text: Backup and restore

@@ -1,13 +1,25 @@
 ---
 description: >
   The ULX admin mod for Garry’s Mod makes it easy to run commands on a specific
-  (group of) players. This tutorial will teach you how target with keywords.
+  (group of) players. This tutorial will teach you various ways to target users.
 ---
-# Keyword targeting
+# Targeting players
 
-- [Summary](#summary)
+- [Nickname matching](#nickname-matching)
+- [Keywords](#keywords)
 
-## Summary
+## Nickname matching
+
+The most common way to target players is by their name. Nickname matching is case-insensitive. If there is no exact match, ULX will match all users with names that contain the given text.
+
+Note that a nickname with one or more spaces must be surrounded by double quotes.
+
+**Examples**
+
+- Slap "sand", or all users with "sand" in their name: `ulx slap sand`
+- Slap "Garry Newman": `ulx slap "garry newman"`
+
+## Keywords
 
 | Keyword    | Meaning                                   |
 |------------|-------------------------------------------|
