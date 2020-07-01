@@ -1,11 +1,13 @@
 {% assign current_url = page.url | remove: 'index.html' %}
 
 {% comment %} Generate links to previous and next page. {% endcomment %}
-{% assign nav_items = site.nav.Users | concat: site.nav.Developers %}
+{% assign nav_items = site.nav.Users | concat: site.nav.Developers | concat: site.nav.Resources %}
+{% assign cutoff_one = site.nav.Users.size %}
+{% assign cutoff_two = cutoff_one | plus: site.nav.Developers.size %}
 {% for link in nav_items %}
-  {% if forloop.index0 == site.nav.Users.size %} {% comment %} If we iterated over all Users pages... {% endcomment %}
-    {% if current_page %}{% break %}{% endif %} {% comment %} Last Users page; stop looking for "next" link. {% endcomment %}
-    {% assign previous_page = nil %} {% comment %} No "previous" link on first Developers page. {% endcomment %}
+  {% if forloop.index0 == cutoff_one or forloop.index0 == cutoff_two %} {% comment %} If we iterated over all links in a section... {% endcomment %}
+    {% if current_page %}{% break %}{% endif %} {% comment %} Last page; stop looking for "next" link. {% endcomment %}
+    {% assign previous_page = nil %} {% comment %} No "previous" link on first item in category. {% endcomment %}
   {% endif %}
   {% unless link.available %}{% continue %}{% endunless %} {% comment %} Skip unavailable links. {% endcomment %}
   {% if current_page %}

@@ -52,6 +52,10 @@ nav:
       url: /custom-keyword
     - text: Custom XGUI tab
       url: /custom-xgui-tab
+  Resources:
+    - text: ULX commands
+      url: /ulx-commands
+      available: true
 
 # Defaults
 defaults:
