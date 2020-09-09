@@ -19,3 +19,5 @@ Place the source code in your `addons` folder. The folder structure should look 
 - `<garrysmod>/addons/ulx/ulx.build`
 
 To verify that you are running the SVN version, run `ulx version` from the console. The version number should be followed by the letter `d` to indicate the fact that it is a development build.
+
+When writing a patch for ULX, take the [Ulysses code style](https://forums.ulyssesmod.net/index.php/topic,3658.0.html) into account.
