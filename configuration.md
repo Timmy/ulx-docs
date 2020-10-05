@@ -23,6 +23,15 @@ Settings that are not customizable in XGUI are covered on this page.
 
 Forced downloads allow you to specify paths to files and directories that should be downloaded by the client.
 
+Example contents:
+```
+; Lines that start with ; are considered comments
+; Add file cheeseman.mp3 under the sound folder:
+sound/cheeseman.mp3
+; Add all files within the my_music folder inside the sound folder:
+sound/my_music
+```
+
 ## Per-gamemode or per-map configuration
 
 ULX can load different configurations depending on the current gamemode or map.
