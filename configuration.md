@@ -7,14 +7,13 @@ description: >
 
 - [Introduction](#introduction)
 - [Downloads](#downloads)
-- [Ban reasons](#ban-reasons)
 - [Per-gamemode or per-map configuration](#per-gamemode-or-per-map-configuration)
 
 ## Introduction
 
 ULX allows for a high level of customization. Most settings can be changed from XGUI by typing `!xgui settings` in chat.
 
-Prominent settings that are not customizable in XGUI are covered on this page.
+Settings that are not customizable in XGUI are covered on this page.
 
 ## Downloads
 
@@ -23,14 +22,6 @@ Prominent settings that are not customizable in XGUI are covered on this page.
 | Purpose | Files and directories that clients should download. |
 
 Forced downloads allow you to specify paths to files and directories that should be downloaded by the client.
-
-## Ban reasons
-
-| File    | `<garrysmod>/data/ulx/banreasons.txt` |
-| Format  | Flat-file database                    |
-| Purpose | Store default ban reasons.            |
-
-Default ban reasons are displayed as suggestions when trying to kick or ban a user from XGUI. ULX will also autocomplete default ban reasons from the developer console.
 
 ## Per-gamemode or per-map configuration
 
