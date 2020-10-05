@@ -20,6 +20,9 @@ nav:
     - text: Getting started
       url: /start
       available: true
+    - text: User management
+      url: /user-management
+      available: true
     - text: Configuration
       url: /configuration
       available: true
