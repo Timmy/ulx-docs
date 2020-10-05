@@ -125,6 +125,9 @@ html
   padding: 0 1rem 1rem
   word-wrap: break-word
 
+.content .uppercase
+  text-transform: uppercase
+
 .content h1
   margin: 1.25rem 0
   font-size: 32px
@@ -179,12 +182,16 @@ html
 
 .content code
   padding: 1px 5px
-  font: 0.85rem/1 "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace
+  font: 1rem/1 "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace
   color: #555
   background: #eee
   border-radius: 3px
   hyphens: none
   white-space: pre-wrap
+
+.content code a
+  color: inherit
+  text-decoration: underline
 
 .content kbd
   display: inline-block

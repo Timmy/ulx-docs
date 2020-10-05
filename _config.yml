@@ -45,6 +45,9 @@ nav:
     - text: SVN version
       url: /svn-version
       available: true
+    - text: ULX module
+      url: /ulx-module
+      available: true
     - text: Hooks and functions
       url: /hooks-and-functions
     - text: Custom module
