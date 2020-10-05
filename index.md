@@ -16,7 +16,7 @@ ULX is an admin mod for Garry's Mod created by Team Ulysses. It was first releas
 
 ## Feature highlights
 
-- An immense list of commands.
+- A total of 74 default commands.
 - An easy-to-use and intuitive GUI.
 - A powerful targeting system.
 - Full-featured and configurable logging system.
@@ -26,7 +26,7 @@ ULX is an admin mod for Garry's Mod created by Team Ulysses. It was first releas
 - Message of the Day generator.
 - Designed to be easy to use from a dedicated server console.
 - Support for third-party modules.
-- Supportive forum community of developers and ULX users.
+- Supportive community of developers and ULX users.
 
 ## Official links
 
