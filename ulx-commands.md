@@ -19,7 +19,7 @@ Not all usergroups have access to the same commands. Run `ulx help` to see the c
 - ulx jailtp \<player> [\<seconds, 0 is forever: 0\<=x, default 0>] - Teleports, then jails target(s). (say: !jailtp)
 - ulx maul \<players> - Maul target(s). (say: !maul)
 - ulx playsound \<sound> - Plays a sound (relative to sound dir).
-- ulx ragdoll \<players> - ragdolls target(s). (say: !ragdoll) (opposite: ulx unragdoll)
+- ulx ragdoll \<players> - Ragdolls target(s). (say: !ragdoll) (opposite: ulx unragdoll)
 - ulx slap \<players> [\<damage: 0\<=x, default 0>] - Slaps target(s) with given damage. (say: !slap)
 - ulx slay \<players> - Slays target(s). (say: !slay)
 - ulx sslay \<players> - Silently slays target(s). (say: !sslay)

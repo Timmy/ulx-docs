@@ -19,7 +19,7 @@ Listen servers are local servers that you can create from within the Garry's Mod
 2. Subscribe to ["ULX" on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=557962280) by clicking the green "Subscribe" button.
 3. Restart your Garry's Mod game client and wait for the addons to download.
 
-Test your fresh installation of ULX by creating a new listen server server and typing `!xgui` in chat. This command should open a menu that allows you to access commands and settings.
+Test your fresh installation of ULX by creating a new listen server and typing `!xgui` in chat. This command should open a menu that allows you to access commands and settings.
 
 ## Dedicated server
 
