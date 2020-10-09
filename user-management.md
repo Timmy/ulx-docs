@@ -2,6 +2,10 @@
 ---
 # User management
 
+- [General User Management Concepts](#general-user-management-concepts)
+- [More Advenced Concepts](#more-advanced-concepts)
+- [User Management Commands](#user-management-commands)
+
 > **Note:** You can access this help text in-game with console command `ulx usermanagementhelp`.
 
 ## General User Management Concepts
