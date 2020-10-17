@@ -71,12 +71,27 @@ html
 
 .header__logo
   font-weight: 600
+  border-right: 1px solid #ededed
 
 .header__logo-link
   display: inline-block
   padding: 1rem 0
   text-decoration: none
   color: inherit
+
+.header__search
+  display: none
+
+.header__search-field
+  width: 100%
+  height: 100%
+  -webkit-appearance: none
+  padding: 8px 1rem
+  border: 0
+  font-size: 1rem
+
+.header__search-field
+  outline: none
 
 .navigation
   background: #fff
@@ -89,6 +104,12 @@ html
   padding: 1rem
   line-height: 1
   border-bottom: 1px solid rgba(0, 0, 0, 0.08)
+
+.navigation__search
+  padding: 1rem 0.75rem 0.5rem 0.75rem
+
+.navigation__search-field
+  width: 100%
 
 .navigation__category
   text-transform: uppercase
@@ -120,9 +141,17 @@ html
 .navigation__link-list-link--active:hover
   text-decoration: none
 
+.content-wrapper a
+  color: #207abf
+  text-decoration: none
+
+.content-wrapper a:hover,
+.content-wrapper a:active
+  text-decoration: underline
+
 .content
   width: 100%
-  padding: 0 1rem 1rem
+  padding: 0 1rem
   word-wrap: break-word
 
 .content .uppercase
@@ -160,14 +189,6 @@ html
 .content p
   line-height: 1.5
   hyphens: auto
-
-.content a
-  color: #207abf
-  text-decoration: none
-
-.content a:hover,
-.content a:active
-  text-decoration: underline
 
 .content img
   max-width: 100%
@@ -257,6 +278,7 @@ html
   flex-flow: row wrap
   margin: 3rem 0 1rem
   padding-top: 1rem
+  padding: 1rem
 
 .content__nav-link--prev
   margin-right: auto
@@ -269,6 +291,9 @@ html
 
 .content__nav-link--next:after
   content: " →"
+
+.content__meta
+  padding: 0 1rem 1rem
 
 .footer
   background: rgba(0, 0, 0, 0.84)
@@ -331,6 +356,9 @@ html
     z-index: 2
 
   .header__container
+    display: grid
+    grid-template-columns: minmax(0, 270px) minmax(0, 930px)
+    align-items: stretch
     width: 100%
     max-width: 1200px
     margin: 0 auto
@@ -340,6 +368,13 @@ html
     display: none
 
   .header__logo
+    margin-left: 1rem
+
+  .header__search
+    display: flex
+    align-items: center
+
+  .header__search-icon
     margin-left: 1rem
 
   .menu-checkbox:checked ~ .navigation
@@ -361,6 +396,9 @@ html
     width: 100%
     max-width: 270px
     padding: 1rem
+
+  .navigation__search
+    display: none
 
   .navigation__category
     color: rgba(0, 0, 0, 0.6)
@@ -385,3 +423,30 @@ html
   .footer__sections
     grid-auto-flow: column
     grid-gap: unset
+
+/* Algolia Docsearch */
+
+.algolia-autocomplete
+  width: 100%
+  height: 100%
+
+.ds-suggestions a
+  text-decoration: none
+
+.algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu::before
+  left: 48px
+  right: initial
+
+.algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu
+  left: 0 !important
+  right: inherit !important
+
+@media (max-width: 768px)
+  .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--content
+    clear: both
+
+  .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--subcategory-column::after
+    content: ""
+
+  .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--content
+    width: 100%
