@@ -55,12 +55,8 @@ jobs:
             _site/css/main.css
       - name: Install brotli
         run: sudo apt-get install brotli
-      - name: Generate list of assets
-        run: |
-          shopt -s globstar nullglob
-          echo ::set-env name=ASSETS::$(ls _site/**/*.{html,css,js})
       - name: Compress assets
-        run: brotli -Z ${{ env.ASSETS }}
+        run: find _site -type f \( -iname \*.html -o -iname \*.css -o -iname \*.js \) -print0 | xargs -0 brotli --
       - name: Install sshpass
         run: sudo apt-get install sshpass
       - name: Publish website
