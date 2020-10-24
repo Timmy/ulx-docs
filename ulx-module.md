@@ -89,7 +89,7 @@ heal:help( "Heals target(s)." )
 
 **Line 11:**
 - Default access is set the first time a command is seen on a server.
-- [List of all default groups](https://github.com/search?l=&q=%22ULib.ACCESS%22+in%3Afile+filename%3Adefines.lua+repo%3ATeamUlysses%2Fulib&type=code).
+- [List of all default groups](https://github.com/TeamUlysses/ulib/blob/c44d23fd82e394982eb361516140757f2fabcc54/lua/ulib/shared/defines.lua#L13-L18).
 
 **Line 12:**
 - Sets the help text for this command as it will appear in `ulx help`.
